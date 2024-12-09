@@ -1,0 +1,28 @@
+{
+    "name": "nexus_commerce/testmodule",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nexus Commerce",
+            "email": "noreply@nexuscommerce.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "NexusCommerce\\TestModule\\": "app/",
+            "NexusCommerce\\TestModule\\Database\\Factories\\": "database/factories/",
+            "NexusCommerce\\TestModule\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NexusCommerce\\TestModule\\Tests\\": "tests/"
+        }
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "inertia.defaultExtension": ".tsx",
+    "inertia.pages": "**/*.tsx",
+    "laravel-pint.enable": true,
+    "php.suggest.basic": false,
+    "[php]": {
+        "editor.defaultFormatter": "open-southeners.laravel-pint"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.formatOnSave": true,
+    "eslint.format.enable": true
+}
